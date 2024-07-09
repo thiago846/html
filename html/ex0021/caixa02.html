@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            margin: 0px;
+        }
+
+        header{
+            width: 600px;
+            background-color: rgb(95, 133, 48);
+            padding: 10px;
+            margin: 10px;
+            
+        }
+        nav{
+            background-color: rgb(139, 212, 154);
+            padding: 3px;
+            
+        }
+        nav> a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+            
+        }
+        nav>a:hover{
+            text-decoration: underline;
+        }
+
+        article{
+            background-color: rgb(165, 164, 164);
+            padding: 5px;
+        }
+        article>aside{
+            background-color: rgb(208, 218, 215);
+        }
+        main{
+            background-color:  rgb(165, 164, 164);
+            color: rgb(0, 0, 0);
+            
+        }
+        
+        footer{
+            background-color: rgb(30, 9, 9);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            margin: 10px;
+
+        }
+    </style>
+</head>
+<body>
+   <header>
+          <h1>Meu site</h1>
+          <nav>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             
+          </nav>
+
+   </header>
+   <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quo minus quod corporis id obcaecati ipsa, iste labore voluptatibus provident dignissimos repellat ullam fugit recusandae a neque consequuntur quia accusamus?</p>
+                <aside>
+                    <p>Artigo do José da Silva</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+   </main>
+
+   <footer>
+       <p>Desenvolvido pelo Cursoemvideo</p>
+   </footer>
+    
+    
+    
+</body>
+</html>
