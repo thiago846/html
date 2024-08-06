@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Exercício de tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        col.cnome,col.cidade{
+            background-color: rgb(128, 223, 33);
+        }
+        col.csexo,col.cprof{
+            background-color: rgb(255, 255, 7);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+    
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col" >Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td> F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Cláudio</td>
+            <td> M</td>
+            <td>30</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Mateus</td>
+            <td> M</td>
+            <td>22</td>
+            <td>Cantor</td>
+        </tr>
+        <tr>
+            <td>Thiago</td>
+            <td> M</td>
+            <td>21</td>
+            <td>Empresario</td>
+        </tr>
+        <tr>
+            <td>Victoria</td>
+            <td> F</td>
+            <td>27</td>
+            <td>Psícologa</td>
+        </tr>
+        <tr>
+            <td>Luna</td>
+            <td> F</td>
+            <td>20</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td> M</td>
+            <td>30</td>
+            <td>Youtuber</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
